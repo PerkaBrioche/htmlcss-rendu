@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <div class="HeadName">
+      <h1>Bienvenue dans le monde d'Harry Potter !</h1>
+    </div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SiteCSS.Css" />
+  </head>
+  <body>
+    <main>
+      <div class="navigationbar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="characters.html">Personnages</a></li>
+            <li><a href="randomfaction.html">Faction Aléatoire</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="characters">
+        <h2>Personnages Principaux</h2>
+        <div class="character-description">
+          <div id="characters-description1">
+            <h3>Harry Potter</h3>
+            <a href="https://gamejolt.com/games/ONAT/857878">
+              <img
+                src="Harry-Potter-de-nouveaux-secrets-devoiles.jpg"
+                width="150"
+                alt="Harry Potter"
+              />
+            </a>
+          </div>
+          <div id="characters-description2">
+            <h3>Hermione Granger</h3>
+            <a href="https://gamejolt.com/games/ONAT/857878">
+              <img src="téléchargement.jpg" width="150" alt="Harry Potter" />
+            </a>
+          </div>
+          <div id="characters-description3">
+            <h3>Ron Weasley</h3>
+            <a href="https://gamejolt.com/games/ONAT/857878">
+              <img
+                src="Ron_Weasley_poster.jpg"
+                width="150"
+                alt="Harry Potter"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="Faction">
+        <div class="FactionText">
+          <h1>Choisissez une faction</h1>
+        </div>
+
+        <button onclick="randomFaction()">Parler au Choixpeau</button>
+        <p id="result"></p>
+      </div>
+    </main>
+
+    <script src="SiteJava.js"></script>
+  </body>
+</html>
