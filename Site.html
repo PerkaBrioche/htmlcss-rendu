@@ -1,65 +1,119 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <div class="HeadName">
-      <h1>Bienvenue dans le monde d'Harry Potter !</h1>
+    <div class="navigationbar">
+      <nav>
+        <ul>
+          <h1><a href="Site.html">Acceuil</a></h1>
+          <h1>
+            <a href="FactionAleatoire.html">A quel maison appartenez-vous ?</a>
+          </h1>
+          <h1><a href="Potions.html">Sorts et Potions...</a></h1>
+        </ul>
+      </nav>
+    </div>
+    <div class="Head">
+      <div class="HeadText">
+        <h1>Bienvenue dans le monde d'Harry Potter !</h1>
+      </div>
     </div>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="SiteCSS.Css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      <div class="navigationbar">
-        <nav>
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="characters.html">Personnages</a></li>
-            <li><a href="randomfaction.html">Faction Aléatoire</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="characters">
-        <h2>Personnages Principaux</h2>
-        <div class="character-description">
-          <div id="characters-description1">
-            <h3>Harry Potter</h3>
-            <a href="https://gamejolt.com/games/ONAT/857878">
-              <img
-                src="Harry-Potter-de-nouveaux-secrets-devoiles.jpg"
-                width="150"
-                alt="Harry Potter"
-              />
-            </a>
-          </div>
-          <div id="characters-description2">
-            <h3>Hermione Granger</h3>
-            <a href="https://gamejolt.com/games/ONAT/857878">
-              <img src="téléchargement.jpg" width="150" alt="Harry Potter" />
-            </a>
-          </div>
-          <div id="characters-description3">
-            <h3>Ron Weasley</h3>
-            <a href="https://gamejolt.com/games/ONAT/857878">
-              <img
-                src="Ron_Weasley_poster.jpg"
-                width="150"
-                alt="Harry Potter"
-              />
-            </a>
-          </div>
+      <div class="presentation">
+        <div id="harrypotterText">
+          <h2>Harry Potter ?</h2>
+        </div>
+        <div class="paragraphpresentation">
+          <p>
+            Plongez dans un monde enchanteur où la magie rencontre l'aventure,
+            et où l'extraordinaire devient quotidien. L'univers d'Harry Potter,
+            créé par l'écrivaine britannique J.K. Rowling, est une saga
+            littéraire mondialement acclamée qui a captivé des millions de
+            lecteurs à travers le globe. Rejoignez-nous pour explorer l'univers
+            magique d'Harry Potter, où l'aventure et la magie vous attendent à
+            chaque page, à chaque écran, et dans chaque recoin de Poudlard. Que
+            vous soyez un sorcier chevronné ou un Moldu curieux, l'histoire
+            intemporelle d'Harry Potter vous transporte dans un monde où la
+            magie devient réalité.
+          </p>
         </div>
       </div>
-      <div class="Faction">
-        <div class="FactionText">
-          <h1>Choisissez une faction</h1>
-        </div>
 
-        <button onclick="randomFaction()">Parler au Choixpeau</button>
-        <p id="result"></p>
+      <div id="characters">
+        <div class="headtextcharacter">
+          <h2>Personnages Principaux</h2>
+        </div>
+        <div class="principal-character">
+          <div class="character-gauche">
+            <div class="characters-description">
+              <h3>Harry Potter</h3>
+              <a href="https://fr.wikipedia.org/wiki/Harry_Potter_(personnage)">
+                <img
+                  src="Images/Harrypotter.jpg"
+                  width="150"
+                  alt="Harry Potter"
+                />
+              </a>
+            </div>
+            <div class="characters-description">
+              <h3>Hermione Granger</h3>
+              <a href="https://fr.wikipedia.org/wiki/Hermione_Granger">
+                <img
+                  src="Images/HermioneGranger.jpg"
+                  width="150"
+                  alt="Hermione Granger"
+                />
+              </a>
+            </div>
+            <div class="characters-description">
+              <h3>Ron Weasley</h3>
+              <a href="https://fr.wikipedia.org/wiki/Ron_Weasley">
+                <img
+                  src="Images/RonWeasley.jpg"
+                  width="150"
+                  alt="Ron Weasley"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="character-droit">
+            <div class="characters-description">
+              <h3>Voldemort</h3>
+              <a href="https://fr.wikipedia.org/wiki/Voldemort">
+                <img src="Images/Voldemort.png" width="150" alt="Voldemort" />
+              </a>
+            </div>
+            <div class="characters-description">
+              <h3>Drago Malefoy</h3>
+              <a href="https://fr.wikipedia.org/wiki/Drago_Malefoy">
+                <img
+                  src="Images/DragoMalfoy.jpg"
+                  width="125"
+                  alt="Drago Malefoy"
+                />
+              </a>
+            </div>
+            <div class="characters-description">
+              <h3>Albus Dumbledore</h3>
+              <a href="https://fr.wikipedia.org/wiki/Albus_Dumbledore">
+                <img
+                  src="Images/AlbusDumbledore.png"
+                  width="150"
+                  alt="Albus Dumbledore"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
-
-    <script src="SiteJava.js"></script>
   </body>
 </html>

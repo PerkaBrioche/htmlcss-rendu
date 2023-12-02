@@ -1,8 +1,11 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Hedvig Letters Serif", sans-serif;
   background-color: #333;
   color: #fff;
   text-align: center;
+  background-size: contain;
+  background-image: url("Images/HogwartsPrincapelRoomBG.webp");
+  background-size: cover;
   height: 100vh;
   margin: 0;
 }
@@ -11,15 +14,18 @@ header {
   align-items: center;
   background-color: #990000;
   padding: 1em;
+  background-image: url("Images/Wallofpotions.jpg");
+  background-size: cover;
 }
 
 button {
-  background-color: #990000;
-  color: #fff;
-  padding: 10px 20px;
+  background-color: #e2e2e2;
+  color: #000000;
+  padding: 100px 100px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 30px;
+  gap: 200px;
 }
 
 button:hover {
@@ -31,21 +37,74 @@ button:hover {
 main {
   margin: 20px;
 }
-.HeadName {
-  background-color: rgba(196, 2, 2, 0.781);
+.Head {
+  padding: 100px 200px;
 }
 .li {
   margin: 0 15px;
 }
+#result-image {
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+}
 
-.character-description {
+.principal-character {
+  gap: 100px;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-image: url("Images/HogwartsBG.png");
+  background-size: cover;
+  color: #000000;
+  padding: 40px;
+  text-align: center;
+  margin: 0;
 }
 
 #characters-description {
   margin-bottom: 20px;
+}
+.navigationbar {
+  background-color: #b6b6b6;
+}
+.presentation {
+  background-image: url("Images/HogwartsInteriorBG.jpg");
+  padding: 100px 100px;
+  font-weight: bold;
+  color: #4b7424;
+  font-size: larger;
+}
+.textcharacter {
+  background-color: #868686;
+}
+.paragraphpresentation {
+  background-color: #ffffff98;
+}
+.potion-section {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.potion-image {
+  flex: 0 0 30%;
+  overflow: hidden;
+}
+
+.potion-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.potion-details {
+  flex: 1;
+  padding: 20px;
+  color: #333;
+  font-size: larger;
 }

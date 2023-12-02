@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div class="navigationbar">
+      <nav>
+        <ul>
+          <h1><a href="Site.html">Acceuil</a></h1>
+          <h1>
+            <a href="FactionAleatoire.html">A quel maison appartenez-vous ?</a>
+          </h1>
+          <h1><a href="Potions.html">Sorts et Potions...</a></h1>
+        </ul>
+      </nav>
+    </div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SiteCSS.css" />
+    <title>Quiz Harry Potter</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quelle maison de Harry Potter es-tu ?</h1>
+      <h2 id="question" class="questiontext">
+        Question 1: Quel animal préfères-tu ?
+      </h2>
+      <div id="answers">
+        <button onclick="nextQuestion('Lion')">Lion</button>
+        <button onclick="nextQuestion('Blaireau')">Blaireau</button>
+        <button onclick="nextQuestion('Aigle')">Aigle</button>
+        <button onclick="nextQuestion('Serpent')">Serpent</button>
+      </div>
+      <p id="result" style="display: none"></p>
+      <img id="result-image" src="Images/Secret.png" alt="Maison Image" />
+    </div>
+    <script src="FactionAleatoire.js"></script>
+  </body>
+</html>
