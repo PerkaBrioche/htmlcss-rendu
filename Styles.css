@@ -37,11 +37,8 @@ button:hover {
 main {
   margin: 20px;
 }
-.Head {
+.head-potion {
   padding: 100px 200px;
-}
-.li {
-  margin: 0 15px;
 }
 #result-image {
   width: 300px;
@@ -89,6 +86,7 @@ main {
   margin-bottom: 20px;
   border-radius: 10px;
   overflow: hidden;
+  font-size: larger;
 }
 
 .potion-image {
