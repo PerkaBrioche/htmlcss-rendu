@@ -19,14 +19,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap"
     />
-
     <title>Quiz Harry Potter</title>
   </head>
   <body>
     <div class="quiz-container">
       <h1>Quelle maison de Harry Potter es-tu ?</h1>
       <h2 id="question">Question 1: Quel animal préfères-tu ?</h2>
-      <div id="answers-bouttons">
+      <div id="reponses-bouttons">
         <button class="answers-button" onclick="nextQuestion('Lion')">
           Lion
         </button>
@@ -42,6 +41,7 @@
       </div>
       <p id="result" style="display: none"></p>
       <img id="result-image" src="Images/Secret.png" alt="Maison Image" />
+      <p id="result-description"></p>
     </div>
     <script src="FactionAleatoire.js"></script>
     <footer>

@@ -44,6 +44,7 @@ main {
   width: 300px;
   height: auto;
   margin-top: 10px;
+  margin: 0 auto;
 }
 
 .principal-character {
